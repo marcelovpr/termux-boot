@@ -1,0 +1,9 @@
+g update && pkg upgrade -y
+pkg install python git -y
+pip install telebot yfinance pandas ta
+
+git clone https://github.com/seubotavancado/telegram-ia-sinais
+cd telegram-ia-sinais
+python bot.py
+
+
